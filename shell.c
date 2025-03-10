@@ -15,7 +15,7 @@ int main() {
     int should_run = 1; // Flag to determine when to exit the shell
 
     while (should_run) {
-        printf("shell> ");
+        printf("Yvan-Shell> ");
         fflush(stdout);
 
         if (fgets(input, MAX_LINE, stdin) == NULL) {
